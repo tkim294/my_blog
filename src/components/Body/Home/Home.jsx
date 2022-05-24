@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div className={classes.title}>
         <Typography variant="h6" className={classes.title1}>
-          University of Wisconsin Madison Graduate
+          Front-end Developer 
         </Typography>
       </div>
       <div className={classes.imageDiv}>
@@ -31,11 +31,12 @@ const Home = () => {
           Welcome to my Portfolio.
         </Typography>
         <Typography className={classes.descript} variant="body2">
-          <Box lineHeight={2} m={1}>
-            I'm a graduate of University of Wisconsin Madison. I am a software
-            developer.
-            <br /> I am able to do some programming languages including C, Java,
-            Javascript, and Python.
+          <Box lineHeight={1.5} m={1}>
+            I'm a graduate of University of Wisconsin Madison. I am a front-end developer.
+            <br /> I am able to do programming languages including C, Java, HTML, CSS,
+            Javascript, and Python. 
+            <br />
+            I have developed a few Shopify projects and been developing a shopify app for a order process.
             <br /> I have done some projects using JavaScript Frameworks, React
             and React Native.
           </Box>

@@ -23,6 +23,16 @@ export default makeStyles((theme) => ({
   },
   image: {
     borderRadius: "50%",
+    width: '500px',
+    height: '500px',
+    [theme.breakpoints.down("md")]: {
+      width: '400px',
+      height: '400px',
+    },
+    [theme.breakpoints.down("sm")]: {
+      width: '300px',
+      height: '300px',
+    },
   },
   bioContainer: {
     marginTop: "8%",

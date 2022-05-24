@@ -39,6 +39,18 @@ const Web = () => {
       href: "https://github.com/tkim294/google-drive-clone",
       language: "All React",
     },
+    {
+      title: "E-Commerce Golf Website",
+      description: "Production Page of Golf Brand",
+      href: "https://legatogolf.com",
+      language: "All Shopify",
+    },
+    {
+      title: "Shopify App",
+      description: "Shopify App for products and order manipulation",
+      href: "https://github.com/tkim294/my_test_app",
+      language: "All React Shopify",
+    },
   ];
 
   const classes = useStyles();
@@ -81,6 +93,15 @@ const Web = () => {
               className={classes.button}
             >
               React
+            </Button>
+            <Button
+              onClick={() => setButton("Shopify")}
+              style={{
+                backgroundColor: button === "Shopify" ? "#593F35" : "#795548",
+              }}
+              className={classes.button}
+            >
+              Shopify
             </Button>
           </ButtonGroup>
         </div>
