@@ -9,11 +9,18 @@ export default makeStyles((theme) => ({
     justifyContent: "center",
     [theme.breakpoints.down("sm")]: {
       fontSize: "0.8em",
+      justifyContent: 'flex-start'
     },
   },
   toolBar: {
+    background: '#434343',
     alignItems: "center",
     justifyContent: "space-between",
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: '0px',
+      paddingRight: '0px',
+      flexDirection: "column",
+    },
   },
   items: {
     marginLeft: "25px",
@@ -26,6 +33,10 @@ export default makeStyles((theme) => ({
     },
     "&:active": {
       backgroundColor: "#767676",
+    },
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "0px",
+      width: '100%',
     },
   },
   container: {

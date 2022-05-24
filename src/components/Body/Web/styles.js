@@ -41,6 +41,8 @@ export default makeStyles((theme) => ({
   },
   buttonGroupContainer: {
     marginTop: "2vh",
+    display: "flex",
+    justifyContent: "center"
   },
   button: {
     backgroundColor: "#795548",

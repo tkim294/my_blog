@@ -23,31 +23,35 @@ export default makeStyles((theme) => ({
     marginTop: "5%",
   },
   title1: {
+    fontWeight: 700,
     [theme.breakpoints.down("sm")]: {
-      fontSize: "0.9em",
+      fontSize: "1.2em",
+    },
+    [theme.breakpoints.up("sm")]: {
+      fontSize: "1.6em",
     },
   },
   imageDiv: {
     marginTop: "6vh",
   },
   image: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(40),
+    height: theme.spacing(40),
   },
   description: {
     marginTop: "4vh",
   },
   welcome: {
-    fontSize: "20px",
+    fontSize: "30px",
     marginBottom: "20px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.1em",
+      fontSize: "25px",
     },
   },
   descript: {
-    fontSize: "15px",
+    fontSize: "20px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "0.8em",
+      fontSize: "15px",
     },
   },
 }));

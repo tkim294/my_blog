@@ -15,8 +15,6 @@ const About = () => {
       <div className={classes.imageContainer}>
         <img
           className={classes.image}
-          height="55%"
-          width="55%"
           src={profileImage}
         />
         <div className={classes.info}>
@@ -50,12 +48,16 @@ const About = () => {
           Hello! I'm Taehyun Kim, a graduate of University of Wisconsin Madison.
           I have a Bachelor of Science degree in Computer Science from
           University of Wisconsin.
+          <br/>
+          <br/>
+          I am currently working as a frond-end developer at Spigen Inc.
+          I have done a few Shopify Project using HTML, CSS, JavaScript, and Liquid.
+          Also, I am currently working on creating an app for shopify production websites.
           <br />
           <br />
-          Currently, I am actively looking for a full time software developer
-          job. While I am looking for a job, I have done some web projects using
+          In addition to my work experience, I have done some web projects using
           JavaScript Framework (React). My skills in programming are Java,
-          JavaScript, C, and JavaScripts Frame works including React and React
+          JavaScript, C, Liquid, and JavaScripts Frameworks including React and React
           Native. I also have some experiences in developing with Linux
           Environment. In addition to programming languages, I have set up my
           database for web apps by using Firebase or MongoDB.
